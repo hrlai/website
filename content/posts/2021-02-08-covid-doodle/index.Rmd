@@ -9,7 +9,7 @@ tags:
   - doodle
 ---
 
-```{r echo=FALSE, fig.height=6, fig.width=6, out.width=3, out.height=3, message=FALSE, warning=FALSE}
+```{r fig.height=6, fig.width=6, message=FALSE, warning=FALSE, include=FALSE, out.height=3, out.width=3}
 library(tidyverse)
 library(lubridate)
 library(extrafont)
@@ -95,6 +95,10 @@ crossing <-
         plot.caption = element_text(family = "CMU Typewriter Text Variable Width",
                                     size = 6, hjust = 0.5, vjust = -24))
 
-crossing
+ggsave("crossing.png",
+       crossing,
+       width = 6, height = 6, units = "in",
+       dpi = 600)
 ```
 
+<img src="crossing.png" alt="" width="640px" height="p40px"/>
