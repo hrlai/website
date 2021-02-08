@@ -7,7 +7,6 @@ categories:
   - personal
 tags:
   - doodle
-draft: yes
 ---
 
 ```{r echo=FALSE, fig.height=6, fig.width=6, message=FALSE, warning=FALSE}
