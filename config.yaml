@@ -48,10 +48,10 @@ params:
   comments:
     enabled: no
     engine: disqus
-  dateFormat: '2021-02-08'
+  dateFormat: '2006, Jan 3'
   description: Generality and transferability of ecological predictions.
   googleAnalyticsAsync: yes
-  mainSection: posts
+  mainSection: research
   rss: yes
   show_updated: no
   showAllPostsOnHomePage: no
