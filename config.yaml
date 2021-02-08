@@ -1,10 +1,10 @@
-baseURL: https://example.com
+baseURL: https://hrlai.netlify.app/
 languageCode: en-au
 title: Data Doodle
 theme: hugo-theme-cactus
 copyright: HR Lai
 disqusShortname: example
-ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+ignoreFiles: ["\\.Rmd$", "_cache$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 hasCJKLanguage: true
 enableEmoji: true
 footnotereturnlinkcontents: "↩"
@@ -36,6 +36,9 @@ markup:
     endLevel: 4
     ordered: no
     startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
     
 params:
   colortheme: classic # dark, light, white, or classic
