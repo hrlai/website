@@ -1,0 +1,68 @@
+baseURL: https://example.com
+languageCode: en-au
+title: Data Doodle
+theme: hugo-theme-cactus
+copyright: HR Lai
+disqusShortname: example
+ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  cn: "/cn/:year/:month/:slug/"
+  en: "/en/:year/:month/:slug/"
+  
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Research
+      url: /research
+      weight: 2
+    - name: Publications
+      url: /publications
+      weight: 3
+    - name: Writings
+      url: /posts
+      weight: 4
+    - name: Tags
+      url: /tags
+      weight: 5
+      
+markup:
+  tableOfContents:
+    endLevel: 4
+    ordered: no
+    startLevel: 2
+    
+params:
+  colortheme: classic # dark, light, white, or classic
+  comments:
+    enabled: no
+    engine: disqus
+  dateFormat: '2021-02-08'
+  description: Placeholder
+  googleAnalyticsAsync: yes
+  mainSection: posts
+  rss: yes
+  show_updated: no
+  showAllPostsOnHomePage: no
+  postsOnHomePage: 5
+  showProjectsList: yes
+  projectsUrl: https://github.com/hrlai
+  social:
+    - link: https://github.com/hrlai
+      name: github
+    - link: https://scholar.google.com/citations?user=g9SWxxcAAAAJ
+      name: scholar
+    - link: https://www.researchgate.net/profile/Hao_Ran_Lai
+      name: researchgate
+    - link: hrlai.ecology@gmail.com
+      name: email
+  tagsOverview: yes
+
+author:
+  en: "Hao Ran Lai"
+  cn: "赖浩然"

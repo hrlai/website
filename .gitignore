@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# https://bookdown.org/yihui/blogdown/version-control.html
+blogdown
+public
+
+Thumbs.db
+.DS_Store
