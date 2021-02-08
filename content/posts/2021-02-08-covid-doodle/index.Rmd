@@ -9,7 +9,7 @@ tags:
   - doodle
 ---
 
-```{r echo=FALSE, fig.height=6, fig.width=6, message=FALSE, warning=FALSE}
+```{r echo=FALSE, fig.height=6, fig.width=6, out.width=3, out.height=3, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(lubridate)
 library(extrafont)
@@ -96,11 +96,5 @@ crossing <-
                                     size = 6, hjust = 0.5, vjust = -24))
 
 crossing
-
-# ggsave("figs/crossing.png",
-#        crossing,
-#        width = 6, height = 6, units = "in",
-#        dpi = 600)
-
 ```
 

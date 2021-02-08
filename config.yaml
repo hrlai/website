@@ -27,9 +27,12 @@ menu:
     - name: Writings
       url: /posts
       weight: 4
+    - name: Quotes
+      url: /quotes
+      weight: 5
     - name: Tags
       url: /tags
-      weight: 5
+      weight: 6
       
 markup:
   tableOfContents:
@@ -46,7 +49,7 @@ params:
     enabled: no
     engine: disqus
   dateFormat: '2021-02-08'
-  description: Placeholder
+  description: Generality and transferability of ecological predictions.
   googleAnalyticsAsync: yes
   mainSection: posts
   rss: yes
@@ -62,9 +65,11 @@ params:
       name: scholar
     - link: https://www.researchgate.net/profile/Hao_Ran_Lai
       name: researchgate
+    - link: https://orcid.org/0000-0001-6871-0146
+      name: orcid
     - link: hrlai.ecology@gmail.com
       name: email
-  tagsOverview: yes
+  tagsOverview: na
 
 author:
   en: "Hao Ran Lai"
