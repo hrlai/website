@@ -1,13 +1,8 @@
 ---
 title: "Publications"
 date: 2021-02-08
+bibliography: bib.bib
+nocite: '@*'
+csl: apa-cv.csl
 ---
 
-```{r, echo=FALSE}
-library(RefManageR)
-
-bib <- ReadBib("bib.bib")
-BibOptions(check.entries = FALSE, style = "markdown", bib.style = "authoryear", cite.style = 'authoryear')
-NoCite(bib)
-PrintBibliography(bib, .opts = list(check.entries = FALSE, sorting = "ynt"))
-```
