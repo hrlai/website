@@ -6,7 +6,6 @@
 # https://bookdown.org/yihui/blogdown/version-control.html
 /blogdown
 /public
-/resources/
 
 Thumbs.db
 .DS_Store
