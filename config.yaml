@@ -70,6 +70,7 @@ params:
     - link: hrlai.ecology@gmail.com
       name: email
   tagsOverview: no
+  mathjax: yes
 
 author:
   en: "Hao Ran Lai"
