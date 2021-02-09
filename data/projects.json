@@ -2,7 +2,7 @@
   "list": [
     {
       "name":"Trait-based species distribution modelling",
-      "url": {{< relref path="content/projects/index.md" >}},
+      "url":"https://gohugo.io/",
       "desc":"Placeholder"
     },
     {
