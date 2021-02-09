@@ -1,0 +1,27 @@
+---
+title: "Open data"
+date: 2021-02-10
+bibliography: ../publications/bib.bib
+csl: journal-of-ecology.csl
+---
+
+# Open science + data
+
+Feel free to play around with the data or models. Issues or questions can be discussed on each of the GitHub Issue pages.
+
+## @Lai2021a: diversity, abiotic factors and `brms` model
+
+- Download from [GitHub](https://github.com/hrlai/novelforestSG)
+- Our paper in [*Applied Vegetation Science*](https://doi/10.1111/avsc.12548)
+
+## @Lai2020: fourth-corner joint species distribution model using `boral`
+
+- Download from [GitHub](https://github.com/hrlai/Lai_et_al_2020_JEcol_Trait_Env)
+- Our paper in [*Journal of Ecology*](https://doi.org/10.1111/1365-2745.13347)
+
+## @Song2020: an `R` package for urban tree size allometry
+
+- Download from [GitHub](https://github.com/xp-song/allometree)
+- Our paper in [*Environmental Research Letters*](https://doi.org/10.1088/1748-9326/abbbad)
+
+# References
