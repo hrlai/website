@@ -1,0 +1,36 @@
+---
+title: Correction factor
+author: Hao Ran
+date: '2020-05-12'
+slug: correction-factor
+categories:
+  - work
+tags:
+  - math
+  - model
+  - note
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>To correct for back-transformation bias in log-transformed allometric models, we multiply the predictions, <span class="math inline">\(\hat{Y}\)</span> by the correction factor, <span class="math display">\[CF = e^{\sigma^2_v / 2} = e^{\text{MSE}/2}, \]</span> where MSE is the mean square error of a model. For the log–log model, the corrected prediction is thus</p>
+<p><span class="math display">\[\begin{align}
+    \hat{Y} &amp;= e^a \log(X+1)^b CF \\
+    \log \hat{Y} &amp;= a + b \log (\log (X+1)) + \log{CF}.
+\end{align}\]</span></p>
+<p>Previously I <em>wrongly</em> stated that the correction factor cannot be built into the log–log or exp equations for reporting, but this can actually be done. Rearranging the above we get:</p>
+<p><span class="math display">\[\begin{align}
+    \log \hat{Y} &amp;= (a + \log{CF}) + b \log (\log (X+1)) \\
+    &amp;= a&#39; + b \log (\log (X+1)).
+\end{align}\]</span></p>
+<p>We can then just report the newly defined <span class="math inline">\(a&#39; = a + \log{CF}\)</span>, which already has the correction factor built in.</p>
+<p>The same operation can be performed on the exponential model (and more easily so):</p>
+<p><span class="math display">\[\begin{align}
+    \hat{Y} &amp;= e^{a + bX} CF \\
+    &amp;= e^{a + bX + \log{CF}} \\
+    \log \hat{Y} &amp;= a + bX + \log{CF} \\
+    &amp;= (a + \log{CF}) + bX \\
+    &amp;= a&#39; + bX,
+\end{align}\]</span>
+thus yielding the same reported <span class="math inline">\(a&#39; = a + \log{CF}\)</span>.</p>
