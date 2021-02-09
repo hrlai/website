@@ -8,7 +8,6 @@ categories:
 tags:
   - math
   - model
-draft: yes
 ---
 
 To correct for back-transformation bias in log-transformed allometric models, we multiply the predictions, $\hat{Y}$ by the correction factor, $$CF = e^{\sigma^2_v / 2} = e^{\text{MSE}/2}, $$ where MSE is the mean square error of a model. For the log--log model, the corrected prediction is thus
