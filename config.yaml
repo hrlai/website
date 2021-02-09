@@ -18,8 +18,8 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Research
-      url: /research
+    - name: Projects
+      url: /projects
       weight: 2
     - name: Publications
       url: /publications
@@ -49,7 +49,7 @@ params:
     enabled: no
     engine: disqus
   dateFormat: '2006, Jan 3'
-  description: Generality and transferability of ecological predictions.
+  description: 
   googleAnalyticsAsync: yes
   mainSection: research
   rss: yes
