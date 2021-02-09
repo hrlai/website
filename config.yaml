@@ -10,8 +10,8 @@ enableEmoji: true
 footnotereturnlinkcontents: "↩"
 
 permalinks:
-  cn: "/cn/:year/:month/:slug/"
-  en: "/en/:year/:month/:slug/"
+  cn: "/cn/:year/:month/:day/:slug/"
+  en: "/en/:year/:month/:day/:slug/"
   
 menu:
   main:
@@ -48,7 +48,7 @@ params:
   comments:
     enabled: no
     engine: disqus
-  dateFormat: '2006, Jan 3'
+  dateFormat: '2006-01-02'
   description: 
   googleAnalyticsAsync: yes
   mainSection: research

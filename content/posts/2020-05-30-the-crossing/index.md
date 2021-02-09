@@ -7,10 +7,10 @@ categories:
   - personal
 tags:
   - doodle
-  - covid
   - data
+  - covid
 ---
 
 Doodling with COVID-19 data up to 30 May 2020.
 
-![](images/crossing.png){width=640px height=640px}
+<img src="images/crossing.png" alt="" width="640px" height="640px"/>

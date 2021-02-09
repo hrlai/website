@@ -9,7 +9,7 @@ tags:
   - prediction
   - reading
   - digest
-draft: yes
+  - note
 ---
 
 Some digestions after reading 
@@ -17,13 +17,13 @@ Some digestions after reading
 
 - Prediction is not (yet) a central focus in ecology
 - If prediction were central in ecology, model selection would be done very differently
-    - "Parsimony holds a hallowed place in model selection"
-    - When data are limited, complex models are more likely to capture idiosyncrasies of the data rather than true underlying processes
-    - However, this problem is entirely due to limitations the data impose on our ability to detect the underlying process, rather than on any inherent value of simple models
+- "Parsimony holds a hallowed place in model selection"
+- When data are limited, complex models are more likely to capture idiosyncrasies of the data rather than true underlying processes
+- However, this problem is entirely due to limitations the data impose on our ability to detect the underlying process, rather than on any inherent value of simple models
 - Ecological models can be improved by\
-    :blush: identifying important variables\
-    :thinking: elucidating functional relationships\
-    :weary: improving parameter estimates
+  :blush: identifying important variables\
+  :thinking: elucidating functional relationships\
+  :weary: improving parameter estimates
 - Without prediction, it is difficult to know if we understand more today than we did yesterday
 - Without temporal transferability, our understanding is ephemeral and temporary
 - Also hard to generalise

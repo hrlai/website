@@ -1,11 +1,12 @@
 ---
-title: Incorporating correction factor into log--log or exp models
+title: Correction factor
 author: Hao Ran
-date: '2020-05-15'
+date: '2020-05-12'
 slug: correction-factor
 categories:
   - work
 tags:
+  - note
   - math
   - model
 ---
@@ -17,8 +18,7 @@ To correct for back-transformation bias in log-transformed allometric models, we
     \log \hat{Y} &= a + b \log (\log (X+1)) + \log{CF}.
 \end{align}
 
-
-Previously I \textit{wrongly} stated that the correction factor cannot be built into the log--log or exp equations for reporting, but this can actually be done. Rearranging the above we get:
+Previously I *wrongly* stated that the correction factor cannot be built into the log--log or exp equations for reporting, but this can actually be done. Rearranging the above we get:
 
 \begin{align}
     \log \hat{Y} &= (a + \log{CF}) + b \log (\log (X+1)) \\
