@@ -1,7 +1,7 @@
 ---
 title: Prediction in ecology
 author: Hao Ran
-date: '2021-02-09'
+date: '2021-01-20'
 slug: prediction-in-ecology
 categories:
   - work
