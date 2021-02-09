@@ -1,6 +1,6 @@
 ---
 title: "Open data"
-date: 2021-02-10
+date: 2021-02-09
 bibliography: ../publications/bib.bib
 csl: journal-of-ecology.csl
 ---
