@@ -1,12 +1,14 @@
 ---
-title: The Crossing
+title: The crossing
 author: Hao Ran
 date: '2020-05-30'
-slug: covid-doodle
+slug: the-crossing
 categories:
   - personal
 tags:
   - doodle
+  - covid
+  - data
 ---
 
 Doodling with COVID-19 data up to 30 May 2020.
