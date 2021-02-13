@@ -1,0 +1,13 @@
+name: Bold name
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "Lai, H. R."
+          replace: "<b>Lai, H. R.</b>"
+          include: "content/publications/index.html"

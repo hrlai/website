@@ -4,9 +4,13 @@ date: 2021-02-08
 bibliography: bib.bib
 nocite: '@*'
 csl: apa-cv.csl
-output:
-    blogdown::html_page:
-        pandoc_args: --lua-filter=boldname.lua
 ---
+
+```{css, echo=FALSE}
+.csl-entry {
+  padding-left: 36px ;
+  text-indent: -36px ;
+}
+```
 
 # Publications
