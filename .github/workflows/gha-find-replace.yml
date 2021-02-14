@@ -9,7 +9,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "Lai, H. R."
-          replace: "<b>Lai, H. R.</b>"
+          replace: "<u>Lai, H. R.</u>"
           include: "content/publications/index.html"
       - name: Commit files
         run: |
