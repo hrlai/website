@@ -59,7 +59,7 @@ params:
   show_updated: no
   showAllPostsOnHomePage: no
   postsOnHomePage: 5
-  showProjectsList: yes
+  showProjectsList: no
   projectsUrl: https://github.com/hrlai
   social:
     - link: https://github.com/hrlai
