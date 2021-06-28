@@ -1,0 +1,21 @@
+---
+title: The logicomathematical vacuum cleaner
+author: Hao Ran Lai
+date: '2021-06-29'
+slug: vacuum-cleaner
+categories:
+  - work
+tags:
+  - quote
+  - reading
+---
+
+In his seminal paper, Hutchinson (1957) compared maths to a vacuum cleaner:
+
+> It is not necessary in any empirical science to keep an elaborate logicomathematical system always apparent, any more than it is necessary to keep a vacuum cleaner conspicuously in the middle of a room at all times. When a lot of irrelevant litter has accumulated the machine must be brought out, used, and then put away. 
+
+I guess it is another way of saying that, when ecological terms are not well-defined with maths, we generate a lot of clutter and redundancy...
+
+# Reference
+
+Hutchinson, G. E. (1957). Population studies: Animal ecology and demography. Cold Spring Harbor Symposia on Quantitative Biology, 22, 415–427. https://doi.org/10.1007/BF02464429
