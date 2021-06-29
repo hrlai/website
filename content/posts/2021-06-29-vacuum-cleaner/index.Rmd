@@ -2,12 +2,12 @@
 title: The logicomathematical vacuum cleaner
 author: Hao Ran Lai
 date: '2021-06-29'
-slug: vacuum-cleaner
 categories:
   - work
 tags:
   - quote
   - reading
+slug: vacuum-cleaner
 ---
 
 In his seminal paper, Hutchinson (1957) compared maths to a vacuum cleaner:
