@@ -17,5 +17,4 @@ In his seminal paper, Hutchinson (1957) compared maths to a vacuum cleaner:
 I guess it is another way of saying that, when ecological terms are not well-defined with maths, we generate a lot of clutter and redundancy...
 
 # Reference
-
-Hutchinson, G. E. (1957). Population studies: Animal ecology and demography. Cold Spring Harbor Symposia on Quantitative Biology, 22, 415–427. https://doi.org/10.1007/BF02464429
+Hutchinson, G. E. (1957). Concluding Remarks. Cold Spring Harbor Symposia on Quantitative Biology, 22, 415–427.
