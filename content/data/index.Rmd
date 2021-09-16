@@ -18,7 +18,7 @@ Feel free to play around with the data or models. Issues or questions can be dis
 
 ## @Lai2021b: trait--environment dependent sapling demography using `boral`
 
-- Download from [GitHub](https://github.com/hrlai/Lai_et_al_2021_EcolLett_Trait_Age) or [Zenodo](https://doi.org/10.5281/zenodo.4718769)
+- Download from [GitHub](https://github.com/hrlai/Lai_et_al_2021_EcolLett_Trait_Age) or [Zenodo](https://doi.org/10.5281/zenodo.5183031)
 - Our paper in [*Ecology Letters*]( https://doi.org/10.1111/ele.13784)
 
 ## @Lai2021a: `novelforestSG`---diversity, abiotic factors and `brms` model
