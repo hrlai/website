@@ -1,0 +1,18 @@
+---
+title: What is a metacommunity?
+author: Hao Ran Lai
+date: '2021-09-16'
+slug: what is a chair
+categories:
+  - work
+tags:
+  - reading
+---
+
+Vsauce's philosophical take on "what is a chair" really echoes with the ecological question "what is a (meta)community".
+
+How do individuals behave "community-wise"...?
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+blogdown::shortcode("youtube", "fXW-QjBsruE")
+```
