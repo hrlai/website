@@ -1,0 +1,22 @@
+---
+title: Proving the obvious?
+author: Hao Ran Lai
+date: '2021-11-28'
+slug: proving-the-obvious
+categories:
+  - work
+tags:
+  - quote
+---
+
+One of [3Blue1Brown's videos](https://youtu.be/rfG8ce4nNh0) quotes a [mathematician](https://en.wikipedia.org/wiki/Alexander_Grothendieck):
+
+> One should never try to prove anything that is not almost obvious.
+> 
+> --- Alexander Grothendieck
+
+This runs in contrary to a criticism that a colleague received from another fellow biologist, who thinks that ecologists are just proving the obvious. For example, "of course diversity and productivity are correlated!"
+
+But are they? And even if they are, there is something more to the act of proving. Just as a rigorous mathematical proof often involves breaking things into parts and then showing how each component relates to one another, "proving" that an ecological pattern exists often motivates the discovery of mechanisms and processes.
+
+Just because the patterns are obvious doesn't mean their underlying processes are.
