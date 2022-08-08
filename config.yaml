@@ -1,7 +1,7 @@
 baseURL: https://hrlai.netlify.app/
 languageCode: en-au
 title: Data Doodle
-theme: cactus
+theme: "hugo-theme-cactus"
 copyright: HR Lai
 disqusShortname: example
 ignoreFiles: ["\\.Rmd$", "_cache$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$"]
