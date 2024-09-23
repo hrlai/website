@@ -64,7 +64,7 @@ params:
   social:
     - link: https://github.com/hrlai
       name: github
-    - link: https://scholar.google.com/citations?user=g9SWxxcAAAAJ
+    - link: https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate
       name: scholar
     - link: https://www.researchgate.net/profile/Hao_Ran_Lai
       name: researchgate
