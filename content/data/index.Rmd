@@ -1,7 +1,7 @@
 ---
 title: "Open data"
 date: 2021-02-09
-bibliography: ../publications/bib.bib
+bibliography: bib.bib
 csl: journal-of-ecology.csl
 ---
 
@@ -15,6 +15,21 @@ csl: journal-of-ecology.csl
 # Open science + data
 
 Feel free to play around with the data or models. Issues or questions can be discussed on each of the GitHub Issue pages.
+
+## @Lai2024: tree competition and diameter growth along broad environmental gradients
+
+- Download from [GitHub/Zenodo](https://zenodo.org/records/10815402)
+- Our paper in [*The American Naturalist*](https://doi.org/10.1086/730807)
+
+## @Lai2021: tree competition and diameter growth
+
+- Download from [GitHub/Zenodo](https://zenodo.org/records/5430441)
+- Our paper in [*Ecology*](https://doi.org/10.1002/ecy.3588)
+
+## @Falster2021: `AusTraits` --- a curated plant trait database for the Australian flora
+
+- `R` package [here](https://austraits.org/)
+- Our paper in [*Nature Scientific Data*](https://www.nature.com/articles/s41597-021-01006-6)
 
 ## @Lai2021b: trait--environment dependent sapling demography using `boral`
 
