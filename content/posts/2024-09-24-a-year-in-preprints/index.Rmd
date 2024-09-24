@@ -1,0 +1,32 @@
+---
+title: A year in preprints
+author: 'Hao Ran'
+date: '2024-09-24'
+slug: a-year-in-preprints
+categories:
+  - work
+tags:
+  - publication
+---
+
+The previous years have been about rabbit holes and getting stuck/unstuck. 
+As a consequence, manuscripts piled up and got released this year as a bunch of 
+preprints. They are now in various stages of submission, rejection, revision, 
+and at least some acceptance (phew).
+
+## Accepted
+
+1. [The propagation of disturbances in ecological networks](https://doi.org/10.1016/j.tree.2024.01.009)
+2. [Detecting Nonadditive Biotic Interactions and Assessing Their Biological Relevance among Temperate Rainforest Trees](https://doi.org/10.1086/730807)
+3. [Landscape patterns drive provision of nature's contributions to people by mobile species](https://doi.org/10.1111/1365-2664.14764)
+
+## In review / revision / resubmission
+
+1. [Discordant changes in foliar and reproductive phenology of tropical dry-forest trees under increasing temperature and decreasing wet-season rainfall](https://doi.org/10.1101/2024.03.24.585819)
+2. [An ecophysiological basis for the assembly of Australian rainforest tree communities](https://www.researchsquare.com/article/rs-3833899/v1)
+3. [Species- and community-level demographic responses of saplings to drought during tropical secondary succession](https://doi.org/10.32942/X2490Z)
+4. [Gaining insights into the life-history strategies of tropical tree species from a large urban inventory dataset](https://doi.org/10.32942/X2FG9W)
+5. [Eltonian niche modelling: applying joint hierarchical niche models to ecological networks](https://doi.org/10.1101/2024.08.14.607929)
+6. [Introduced trout hinder the recovery of native fish following an extreme flood disturbance](https://doi.org/10.1101/2024.09.05.611377)
+
+Learning to write faster and better. Got to remember that writing and editing are two separate processes.
