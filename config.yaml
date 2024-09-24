@@ -68,6 +68,8 @@ params:
       name: scholar
     - link: https://www.researchgate.net/profile/Hao_Ran_Lai
       name: researchgate
+    - link: https://www.linkedin.com/in/haoranlai/
+      name: linkedin
     - link: https://orcid.org/0000-0001-6871-0146
       name: orcid
     - link: hrlai.ecology@gmail.com
