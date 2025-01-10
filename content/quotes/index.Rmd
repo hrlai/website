@@ -1,7 +1,7 @@
 ---
 title: Quotes
 author: Hao Ran
-date: '2021-02-08'
+date: '2025-01-11'
 ---
 
 Ursula K. Le Guin (1929--2018) writes science fictions that are strangely beautiful. Maybe it isn't too strange that they contain memorable lines that are strangely applicable to science, and life in general. Here are two from *The Left Hand of Darkness* (1969).
@@ -9,3 +9,7 @@ Ursula K. Le Guin (1929--2018) writes science fictions that are strangely beauti
 > To learn which questions are unanswerable, and not to answer them: this skill is most needful in times of stress and darkness.
 
 > When action grows unprofitable, gather information; when information grows unprofitable, sleep.
+
+And to add another from Robert A. Heinlein's (1907--1988) *Starship Troopers* (1959), which strangely coincided with the birth of our child at the time of reading:
+
+> Each year we gain a little. You have to keep a sense of proportion.
