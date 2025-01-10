@@ -1,5 +1,5 @@
 ---
-title: Quotes
+title: Reminder
 date: '2025-01-11'
 ---
 
