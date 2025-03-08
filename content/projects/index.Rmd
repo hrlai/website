@@ -2,4 +2,19 @@
 title: "Projects"
 ---
 
-<!-- Use this to recruit students in the future -->
+This page is still under construction, but is here to give you a very rough idea. Please come back later!
+
+# Trait--environment relationships
+
+# Plant demography
+
+# Plant--animal interactions
+
+# Phenology
+
+# Urban ecology
+<!---Maybe call it nature based solutions...-->
+
+# Trait database and open data      
+
+# Capacity building in biostatistics
