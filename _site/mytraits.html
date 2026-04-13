@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MYtraits: a living trait database for the Malaysia flora – LAI Hao Ran</title>
+<title>MYtraits: a living trait database for the flora of Malaysia – LAI Hao Ran</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -138,11 +138,11 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MYtraits: a living trait database for the Malaysia flora</h1>
+<h1 class="title">MYtraits: a living trait database for the flora of Malaysia</h1>
 </div>
 
 
@@ -172,7 +172,10 @@ Note
 <p>The MYtraits database and R package are coming soon. Thank you for your patience as it is currently a personal endeavor without much funding. Please feel free to <a href="mailto:hrlai.ecology@gmail.com">email me</a> to discuss further or know more.</p>
 </div>
 </div>
-<p>An accessible database is crucial to coordinate fundamental research, species management, ecosystem restoration and public mainstreaming. I am building the MYtraits database that is integrated with the statistical programming software R <i class="fa-brands fa-r-project" aria-label="r-project"></i>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/mytraits.png" class="img-fluid"></p>
+</div></div><p>An accessible database is crucial to coordinate fundamental research, species management, ecosystem restoration and public mainstreaming. I am building the MYtraits database that is integrated with the statistical programming software R <i class="fa-brands fa-r-project" aria-label="r-project"></i>.</p>
 
 
 
@@ -250,7 +253,7 @@ Note
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/hrlai\.netlify\.app");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
