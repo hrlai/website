@@ -1,0 +1,25 @@
+/* css styles */
+
+/* Increase font size for all navbar links */
+.navbar li.nav-item a.nav-link span {
+  font-size: 1.1rem; /* Adjust as needed */
+}
+
+/* disable all-caps in the navbar */
+.navbar-nav .nav-link {
+  text-transform: none !important;
+}
+
+/* Specifically increase the size of icons in the navbar */
+.navbar-nav .nav-link i, 
+.navbar-nav .nav-link svg {
+  font-size: 1.2rem;   /* For font-based icons (FontAwesome/Bootstrap Icons) */
+  height: 1.2rem;      /* For SVG-based icons */
+  width: 1.2rem;
+  vertical-align: text-bottom;
+}
+
+/* Optional: Increase font size for the website title in the navbar */
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
