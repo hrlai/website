@@ -1,8 +1,0 @@
----
-title: "Publications"
-date: 2021-02-08
----
-
-# Publications
-
-Please see [Google Scholar](https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate) or [ResearchGate](https://www.researchgate.net/profile/Hao-Ran-Lai/research), who are better than me at upkeeping the publication list.

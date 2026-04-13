@@ -1,0 +1,44 @@
+---
+about:  
+  template: trestles
+  image: img/profile.jpg
+  image-shape: round
+  links:
+    - text: "{{< fa brands github size=huge >}}"
+      href: https://github.com/hrlai
+    - text: "{{< ai google-scholar size=huge >}}"
+      href: https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate
+    - text: "{{< fa brands researchgate size=huge >}}"
+      href: https://www.researchgate.net/profile/Hao_Ran_Lai
+    - text: "{{< fa brands linkedin size=huge >}}"
+      href: https://www.linkedin.com/in/haoranlai/
+    - text: "{{< fa brands orcid size=huge >}}"
+      href: https://orcid.org/0000-0001-6871-0146
+    - text: "{{< fa envelope size=huge >}}"
+      href: mailto:hrlai.ecology@gmail.com
+  
+toc: false
+---
+
+## Quantitative and Functional Ecology
+
+Apa khabar! My name is Lai Hao Ran (賴浩然). As a plant community ecologist, my research aims to understand and generalise the dynamics of forest biodiversity through functional traits and statistical rigour through long-term monitoring. 
+<!-- I am now broadening my research into multitrophic interactions and ecological networks, leveraging advanced quantitative and trait-based methods developed in my field and applying them to the study of ecological networks. -->
+My long-term career goal is to build capacity and foster an innovative research community in Malaysia and tropical Asia.
+
+Please feel free to reach out for research collaboration, forest fieldwork, guest lecturing and student (co)supervision.
+
+### Current position
+Ecologist / Data scientist, South East Asia Rainforest Research Partnership (SEARRP), Malaysia <span title="2025 ForestGEO Research Awards">{{< fa award >}}</span>
+
+### Past position
+2019--2025 | Post-doctoral fellow, School of Biological Sciences, University of Canterbury, New Zealand <span title="Marsden Fast Start Grant">{{< fa award >}}</span>
+
+2019 | Visiting Research Fellow, Centre for Urban Greenery and Ecology, National Parks Board, Singapore <span title="CUGE Visiting Research Fellowship">{{< fa award >}}</span>
+
+2015--2018 | Teaching assistant, National University of Singapore, Singapore <span title="2018 Teaching Assistant Award">{{< fa medal >}}</span> <span title="2017 Teaching Assistant Award">{{< fa medal >}}</span>
+
+### Education
+2015--2018 | PhD, Department of Biological Sciences, National University of Singapore, Singapore <span title="International Society for Plant Molecular Biology Medal for most outstanding thesis">{{< fa medal >}}</span>
+
+2009--2012 | BSc (Hons), School of Biological Sciences, The University of Queensland, Australia <span title="University Medal">{{< fa medal >}}</span> <span title="D.A. Herbert Prize in Botany">{{< fa medal >}}</span> <span title="F.A. Perkins Prize in Entomology">{{< fa medal >}}</span>

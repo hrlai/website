@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "LAI Hao Ran"
+  description: "Quantitative and Functional Ecology"
+  navbar:
+    logo: img/logo.png
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house
+      - href: publication.qmd
+        text: Publications
+        icon: book
+      - href: teim.qmd
+        text: "Trait Ecology Initiative MY"
+        icon: leaf
+      - href: mytraits.qmd
+        text: "MYtraits"
+        icon: database
+      - href: reminder.qmd
+        text: Reminder
+        icon: bookmark-heart
+
+format:
+  html:
+    theme:
+      - sandstone
+      - brand
+    css: styles.css
+    toc: true
