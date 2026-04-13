@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: de186686-7563-4dd2-980d-6bc820a21bd3
+      url: https://hrlai.netlify.app

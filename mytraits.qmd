@@ -3,5 +3,7 @@ title: "MYtraits: a living trait database for the Malaysia flora"
 ---
 
 ::: {.callout-note}
-This page is still under construction. Please feel free to [email me](mailto:hrlai.ecology@gmail.com) to discuss further or know more.
+The MYtraits database and R package are coming soon. Thank you for your patience as it is currently a personal endeavor without much funding. Please feel free to [email me](mailto:hrlai.ecology@gmail.com) to discuss further or know more.
 :::
+
+An accessible database is crucial to coordinate fundamental research, species management, ecosystem restoration and public mainstreaming. I am building the MYtraits database that is integrated with the statistical programming software R {{< fa brands r-project >}}.
