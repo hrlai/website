@@ -22,7 +22,7 @@ toc: false
 
 ## Quantitative and Functional Ecology
 
-Apa khabar! My name is Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. 
+Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. 
 <!-- I am now broadening my research into multitrophic interactions and ecological networks, leveraging advanced quantitative and trait-based methods developed in my field and applying them to the study of ecological networks. -->
 My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
 
