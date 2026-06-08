@@ -26,8 +26,8 @@ website:
 format:
   html:
     theme:
-      - sandstone
-      - brand
+      light: sandstone
+      dark: darkly
     css: styles.css
     toc: true
 
