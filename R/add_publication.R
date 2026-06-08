@@ -7,7 +7,9 @@
 #' @returns
 #'
 #' @export
-#' @examples add_publication("10.1111/ele.12414", corresponding = FALSE)
+#' @examples
+#' box::use(R/add_publication[add_publication])
+#' add_publication("10.1111/ele.12414", corresponding = FALSE)
 
 add_publication <- function(
   doi,
@@ -28,5 +30,5 @@ add_publication <- function(
   }
 
   # combine the existing (if it does) and new bibliography into a single YAML
-  write_yaml(c(existing, list(bib_new)), file)
+  yaml::write_yaml(c(existing, list(bib_new)), file)
 }
