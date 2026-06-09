@@ -13,6 +13,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Sans", sans-serif !important;
 }
 
+/* Standardize navbar height for both light and dark modes */
+.navbar {
+  padding: 0.75rem 0 !important;
+  line-height: 1.2 !important;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+  line-height: 1.2 !important;
+  display: flex !important;
+  align-items: center !important;
+  height: auto !important;
+}
+
 /* Increase font size for all navbar links */
 .navbar li.nav-item a.nav-link span {
   font-size: 1.1rem; /* Adjust as needed */
