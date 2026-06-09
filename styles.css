@@ -23,3 +23,16 @@
 .navbar-brand {
   font-size: 1.5rem !important;
 }
+
+/* Dark mode support - Quarto uses [data-bs-theme="dark"] */
+[data-bs-theme="dark"] .navbar li.nav-item a.nav-link span {
+  color: inherit;
+}
+
+[data-bs-theme="dark"] .navbar-nav .nav-link {
+  color: inherit;
+}
+
+[data-bs-theme="dark"] .navbar-brand {
+  color: inherit;
+}
