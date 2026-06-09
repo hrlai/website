@@ -31,7 +31,7 @@ Please feel free to reach out for research collaboration, forest fieldwork, gues
 ### Current position
 Ecologist / Data scientist, South East Asia Rainforest Research Partnership (SEARRP), Malaysia (joint appointment with Imperial College London, UK) <span title="2025 ForestGEO Research Awards">{{< fa award >}}</span>
 
-### Past position
+### Past positions
 2019--2025 | Post-doctoral fellow, School of Biological Sciences, University of Canterbury, New Zealand <span title="Marsden Fast Start Grant">{{< fa award >}}</span>
 
 2019 | Visiting Research Fellow, Centre for Urban Greenery and Ecology, National Parks Board, Singapore <span title="CUGE Visiting Research Fellowship">{{< fa award >}}</span>
