@@ -29,7 +29,7 @@ My career goal is to build capacity and foster a more innovative research commun
 Please feel free to reach out for research collaboration, forest fieldwork, guest teaching, and project (co)supervision.
 
 ### Current position
-Ecologist / Data scientist, South East Asia Rainforest Research Partnership (SEARRP), Malaysia (joint appointment with Imperial College London, UK) <span title="2025 ForestGEO Research Awards">{{< fa award >}}</span>
+Ecologist / Data scientist, South East Asia Rainforest Research Partnership (SEARRP), Malaysia (joint appointment with Imperial College London, UK) <span class="award-badge">{{< fa award >}} 2025 ForestGEO Research Award</span>
 
 ### Past positions
 2019--2025 | Post-doctoral fellow, School of Biological Sciences, University of Canterbury, New Zealand <span title="Marsden Fast Start Grant">{{< fa award >}}</span>

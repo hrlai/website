@@ -63,3 +63,11 @@ h1, h2, h3, h4, h5, h6 {
 [data-bs-theme="dark"] .navbar-brand {
   color: inherit;
 }
+
+/* Theme for award badge on the landing page */
+.award-badge {
+  font-size: 0.85em;
+  color: #666;
+  font-style: italic;
+  margin-left: 0.4em;
+}
