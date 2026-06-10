@@ -588,18 +588,6 @@
   entry: article
   corresponding: yes
 - title:
-    "Eltonian niche modelling: applying joint hierarchical niche models to
-    ecological networks"
-  url: http://dx.doi.org/10.1101/2024.08.14.607929
-  DOI: 10.1101/2024.08.14.607929
-  publisher: openRxiv
-  author: Dehling, D. Matthias and Lai, Hao Ran and Stouffer, Daniel B.
-  year: "2024"
-  month: Aug
-  key: Dehling_2024
-  entry: article
-  corresponding: no
-- title:
     Quantifying life-history trade-offs in diameter growth for tropical tree
     species from a large urban inventory dataset
   volume: "112"
@@ -652,3 +640,19 @@
   key: Lai_2025
   entry: article
   corresponding: yes
+- title:
+    "Eltonian Niche Modelling: Applying Joint Hierarchical Niche Models to
+    Ecological Networks"
+  volume: "28"
+  ISSN: 1461-0248
+  url: http://dx.doi.org/10.1111/ele.70120
+  DOI: 10.1111/ele.70120
+  number: "6"
+  journal: Ecology Letters
+  publisher: Wiley
+  author: Dehling, D. Matthias and Lai, Hao Ran and Stouffer, Daniel B.
+  year: "2025"
+  month: May
+  key: Dehling_2025
+  entry: article
+  corresponding: no
