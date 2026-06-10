@@ -17,6 +17,7 @@
   key: Lai_2015
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Landscape context explains changes in the functional diversity of
     regenerating forests better than climate or species richness
@@ -36,6 +37,7 @@
   key: Sams_2017
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Liana effects on biomass dynamics strengthen during secondary forest
     succession
@@ -55,6 +57,7 @@
   key: Lai_2017
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Evidence for pitcher trait-mediated coexistence between
     sympatric<i>Nepenthes</i>pitcher plant species across geographical scales
@@ -72,6 +75,7 @@
   key: Lam_2018
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Accurate predictions of coexistence in natural systems require the inclusion
     of facilitative interactions and environmental dependency
@@ -92,6 +96,7 @@
   key: Bimler_2018
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Nitrogen fixer abundance has no effect on biomass recovery during tropical
     secondary forest succession
@@ -112,6 +117,7 @@
   key: Lai_2018
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Links between community ecology theory and ecological restoration are on the
     rise
@@ -133,6 +139,7 @@
   key: Wainwright_2017
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Short‐term responses in a secondary tropical forest after a severe windstorm
     event
@@ -154,6 +161,7 @@
   key: Yee_2019
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     "Particulate matter mitigation via plants: Understanding complex
     relationships with leaf traits"
@@ -171,6 +179,7 @@
   key: Chiam_2019
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Soil nutrients and dispersal limitation shape compositional variation in
     secondary tropical forests across multiple scales
@@ -191,6 +200,7 @@
   key: van_Breugel_2019
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Distinct responses of niche and fitness differences to water availability
     underlie variable coexistence outcomes in semi‐arid annual plant communities
@@ -211,6 +221,7 @@
   key: Wainwright_2018
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Height–diameter allometry for the management of city trees in the tropics
   volume: "15"
@@ -229,6 +240,7 @@
   key: Song_2020
   entry: article
   corresponding: no
+  joint_first: yes
 - title:
     Functional traits that moderate tropical tree recruitment during
     post‐windstorm secondary succession
@@ -249,6 +261,7 @@
   key: Lai_2020
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Decoupled responses of native and exotic tree diversities to distance from
     old‐growth forest and soil phosphorus in novel secondary forests
@@ -268,6 +281,7 @@
   key: Lai_2020
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Successional syndromes of saplings in tropical secondary forests emerge from
     environment‐dependent trait–demography relationships
@@ -288,6 +302,7 @@
   key: Lai_2021
   entry: article
   corresponding: yes
+  joint_first: no
 - title: AusTraits, a curated plant trait database for the Australian flora
   volume: "8"
   ISSN: 2052-4463
@@ -364,6 +379,7 @@
   key: Falster_2021
   entry: article
   corresponding: no
+  joint_first: no
 - doi: 10.26107/NIS-2022-0121
   url: https://lkcnhm.nus.edu.sg/wp-content/uploads/sites/10/2022/11/NIS_S1_207-218.pdf
   author: Lai, Hao Ran and Chong, Kwek Yan and Yee, Alex Thiam Koon
@@ -379,6 +395,7 @@
   key: https://doi.org/10.26107/nis-2022-0121
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Deforestation scenarios show the importance of secondary forest for meeting
     Panama’s carbon goals
@@ -399,6 +416,7 @@
   key: Hall_2022
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     "Habitat Adaptation Mediates the Influence of Leaf Traits on Canopy
     Productivity: Evidence from a Tropical Freshwater Swamp Forest"
@@ -421,6 +439,7 @@
   key: Lam_2021
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Non‐additive biotic interactions improve predictions of tropical tree growth
     and impact community size structure
@@ -439,6 +458,7 @@
   key: Lai_2021
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Landscape patterns drive provision of nature’s contributions to people by
     mobile species
@@ -458,6 +478,7 @@
   key: O_Brien_2024
   entry: article
   corresponding: no
+  joint_first: no
 - title: The propagation of disturbances in ecological networks
   volume: "39"
   ISSN: 0169-5347
@@ -475,6 +496,7 @@
   key: Martins_2024
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     A Functional Basis for the Assembly of Australian Subtropical Rainforest
     Tree Communities
@@ -493,6 +515,7 @@
   key: Radford_Smith_2024
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Detecting Nonadditive Biotic Interactions and Assessing Their Biological
     Relevance among Temperate Rainforest Trees
@@ -512,6 +535,7 @@
   key: Lai_2024
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Potential Effects of an Emerging Disease on Tree Communities Around a
     Susceptible Foundation Tree Species
@@ -529,6 +553,7 @@
   key: Chan_2025
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Identifying potentially suitable and accessible refugia to mitigate impacts
     of an emerging disease on a rare tree
@@ -548,6 +573,7 @@
   key: Herbert_2025
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Mobile species’ responses to surrounding land use generate trade-offs and
     synergies among nature’s contributions to people
@@ -569,6 +595,7 @@
   key: O_Brien_2025
   entry: article
   corresponding: no
+  joint_first: no
 - title:
     Leaf‐Litter Depth, Not Canopy Openness, Mediates the Occurrence of an
     Invasive Shrub From the Forest Edge to Interior
@@ -587,6 +614,7 @@
   key: Lai_2025
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Quantifying life-history trade-offs in diameter growth for tropical tree
     species from a large urban inventory dataset
@@ -605,6 +633,7 @@
   key: Lai_2025
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     Changes in quantity and timing of foliar and reproductive phenology of
     tropical dry‐forest trees under a warming and drying climate
@@ -623,6 +652,7 @@
   key: Lai_2025
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     "Model‐based ordination for phenological studies: From controlling sampling
     bias to inferring temporal associations"
@@ -640,6 +670,7 @@
   key: Lai_2025
   entry: article
   corresponding: yes
+  joint_first: no
 - title:
     "Eltonian Niche Modelling: Applying Joint Hierarchical Niche Models to
     Ecological Networks"
@@ -656,3 +687,4 @@
   key: Dehling_2025
   entry: article
   corresponding: no
+  joint_first: no
