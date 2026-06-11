@@ -46,3 +46,24 @@ parse_authors <- function(author_string, max_authors = 3) {
 
   stringr::str_c(authors, collapse = ", ")
 }
+
+#' Check if a name is in the first or last position
+#'
+#' @param name_string A single string of names separated by `" and "`,
+#'   e.g. `"name1 and name2 and ... and name_last"`.
+#' @param name A character vector of one or more names to look up.
+#'
+#' @return A logical value: `TRUE` if `name` is the first or last name in
+#'   `name_string`, `FALSE` otherwise.
+#'
+#' @examples
+#' is_first_or_last("Alice and Bob and Charlie", "Alice")           # TRUE
+#' is_first_or_last("Alice and Bob and Charlie", "Bob")             # FALSE
+#' is_first_or_last("Alice and Bob and Charlie", c("Bob", "Alice")) # TRUE
+#'
+#' @export
+
+is_first_or_last <- function(name_string, name) {
+  names <- stringr::str_split_1(name_string, " and ")
+  any(name %in% c(names[1], names[length(names)]))
+}
