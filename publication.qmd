@@ -1,7 +1,95 @@
 ---
 title: "Publications"
+execute:
+  echo: false
+  message: false
+  warning: false
 ---
 
 Please see [Google Scholar](https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate) or [ResearchGate](https://www.researchgate.net/profile/Hao-Ran-Lai/research), who are better than me at upkeeping the publication list.
 
 (I might curate this publication list one day, if I can find time...)
+
+```{r}
+#| column: page
+library(yaml)
+library(tidyverse)
+library(DT)
+library(crosstalk)
+box::use(R/utils)
+
+# Load the publication metadata
+pubs <- read_yaml("data/publications.yaml")
+
+# Parse into a clean data frame
+pub_tab <-
+  pubs |>
+  map(\(pub) {
+    pub |>
+      keep_at(c(
+        "author",
+        "year",
+        "title",
+        "journal",
+        "url",
+        "corresponding",
+        "joint_first"
+      )) |>
+      as.data.frame()
+  }) |>
+  list_rbind() |>
+  # determine lead authorship
+  rowwise() |>
+  mutate(
+    lead = utils$is_first_or_last(author, "Lai, Hao Ran") |
+      corresponding |
+      joint_first
+  ) |>
+  ungroup() |>
+  # simplify author list
+  mutate(author = map_chr(author, utils$parse_authors, max_authors = 5)) |>
+  # Format the Link column as HTML
+  mutate(url = sprintf('<a href="%s" target="_blank">Link</a>', url)) |>
+  # reorder columns
+  select(author, year, title, journal, url, lead)
+
+# # Wrap data frame in SharedData (for crosstalk::filter_*)
+pub_tab_shared <- SharedData$new(pub_tab)
+
+# Filter widget
+filter_checkbox(
+  "lead_filter",
+  "As first, senior or corresponding author",
+  pub_tab_shared,
+  ~lead,
+  inline = TRUE
+)
+```
+
+```{r}
+#| column: page
+# Table of publications
+datatable(
+  pub_tab_shared,
+  colnames = c(
+    "Author" = "author",
+    "Year" = "year",
+    "Title" = "title",
+    "Journal" = "journal",
+    "URL" = "url"
+  ),
+  escape = FALSE,
+  rownames = FALSE,
+  options = list(
+    pageLength = 25,
+    # hide the filter column
+    columnDefs = list(
+      list(visible = FALSE, targets = 5)
+    ),
+    # sort reverse chronologically
+    order = list(list(1, "desc"), list(5, "desc")),
+    language = list(search = "Search publications:")
+  )
+) |>
+  formatStyle(columns = "Journal", fontStyle = "italic")
+```
