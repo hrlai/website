@@ -54,7 +54,7 @@ theme_list <- function(tag) {
 
 ## Quantitative and Functional Ecology
 
-Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
+Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist, currently jointly [appointed](cv.qmd#current-position) by South East Asia Rainforest Research Partnership ([SEARRP](https://www.searrp.org/)), Malaysia and Imperial College London, UK. My [research](#research-themes) aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
 
 Please feel free to reach out for research collaboration, forest fieldwork, guest teaching, and project (co)supervision.
 
@@ -82,7 +82,7 @@ theme_list("interactions")
 
 ### Quantitative methods
 
-Ecological inference is only as good as the models behind it. I develop and apply novel statistical approaches — including hierarchical models, model-based ordination, and joint species distribution models — to extract rigorous ecological signal from observational and long-term monitoring data.
+Ecological inference is only as good as the models behind it. I develop and apply novel statistical approaches —- including hierarchical models, model-based ordination, and joint species distribution models —- to extract rigorous ecological signal from observational and long-term monitoring data.
 
 ```{r}
 #| output: asis
