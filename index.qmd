@@ -20,11 +20,36 @@ about:
 toc: false
 ---
 
+```{r}
+#| include: false
+library(yaml)
+
+pubs_all <- read_yaml("data/publications.yaml")
+
+# Render a markdown list of publications tagged with a given theme
+theme_list <- function(tag) {
+  tagged <- Filter(\(p) !is.null(p$themes) && tag %in% p$themes, pubs_all)
+  for (p in tagged) {
+    authors <- strsplit(p$author, " and ")[[1]]
+    surname <- strsplit(authors[1], ",")[[1]][1]
+    suffix <- if (length(authors) > 1) " et al." else ""
+    journal <- gsub("&amp;", "&", p$journal)
+    cat(sprintf(
+      "- %s%s (%s) [%s](%s){target='_blank'} *%s*\n\n",
+      surname,
+      suffix,
+      p$year,
+      p$title,
+      p$url,
+      journal
+    ))
+  }
+}
+```
+
 ## Quantitative and Functional Ecology
 
-Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. 
-<!-- I am now broadening my research into multitrophic interactions and ecological networks, leveraging advanced quantitative and trait-based methods developed in my field and applying them to the study of ecological networks. -->
-My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
+Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
 
 Please feel free to reach out for research collaboration, forest fieldwork, guest teaching, and project (co)supervision.
 
