@@ -4,19 +4,24 @@ about:
   image: img/profile.jpg
   image-shape: round
   links:
-    - text: "{{< fa brands github size=huge >}}"
+    - text: "{{< fa brands github>}}"
       href: https://github.com/hrlai
-    - text: "{{< ai google-scholar size=huge >}}"
+    - text: "{{< ai google-scholar>}}"
       href: https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate
-    - text: "{{< fa brands researchgate size=huge >}}"
+    - text: "{{< fa brands researchgate>}}"
       href: https://www.researchgate.net/profile/Hao_Ran_Lai
-    - text: "{{< fa brands linkedin size=huge >}}"
+    - text: "{{< fa brands linkedin>}}"
       href: https://www.linkedin.com/in/haoranlai/
-    - text: "{{< fa brands orcid size=huge >}}"
+    - text: "{{< fa brands orcid>}}"
       href: https://orcid.org/0000-0001-6871-0146
-    - text: "{{< fa envelope size=huge >}}"
+    - text: "{{< fa envelope>}}"
       href: mailto:hrlai.ecology@gmail.com
   
+execute:
+  echo: false
+  message: false
+  warning: false
+
 toc: false
 ---
 
