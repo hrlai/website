@@ -4,50 +4,87 @@ about:
   image: img/profile.jpg
   image-shape: round
   links:
-    - text: "{{< fa brands github size=huge >}}"
+    - text: "{{< fa brands github>}}"
       href: https://github.com/hrlai
-    - text: "{{< ai google-scholar size=huge >}}"
+    - text: "{{< ai google-scholar>}}"
       href: https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate
-    - text: "{{< fa brands researchgate size=huge >}}"
+    - text: "{{< fa brands researchgate>}}"
       href: https://www.researchgate.net/profile/Hao_Ran_Lai
-    - text: "{{< fa brands linkedin size=huge >}}"
+    - text: "{{< fa brands linkedin>}}"
       href: https://www.linkedin.com/in/haoranlai/
-    - text: "{{< fa brands orcid size=huge >}}"
+    - text: "{{< fa brands orcid>}}"
       href: https://orcid.org/0000-0001-6871-0146
-    - text: "{{< fa envelope size=huge >}}"
+    - text: "{{< fa envelope>}}"
       href: mailto:hrlai.ecology@gmail.com
   
+execute:
+  echo: false
+  message: false
+  warning: false
+
 toc: false
 ---
 
+```{r}
+#| include: false
+library(yaml)
+
+pubs_all <- read_yaml("data/publications.yaml")
+
+# Render a markdown list of publications tagged with a given theme
+theme_list <- function(tag) {
+  tagged <- Filter(\(p) !is.null(p$themes) && tag %in% p$themes, pubs_all)
+  for (p in tagged) {
+    authors <- strsplit(p$author, " and ")[[1]]
+    surname <- strsplit(authors[1], ",")[[1]][1]
+    suffix <- if (length(authors) > 1) " et al." else ""
+    journal <- gsub("&amp;", "&", p$journal)
+    cat(sprintf(
+      "- %s%s (%s) [%s](%s){target='_blank'} *%s*\n\n",
+      surname,
+      suffix,
+      p$year,
+      p$title,
+      p$url,
+      journal
+    ))
+  }
+}
+```
+
 ## Quantitative and Functional Ecology
 
-Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. 
-<!-- I am now broadening my research into multitrophic interactions and ecological networks, leveraging advanced quantitative and trait-based methods developed in my field and applying them to the study of ecological networks. -->
-My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
+Apa khabar! I'm Lai Hao Ran (賴浩然) and a plant community ecologist. My research aims to understand and generalise the dynamics of forest biodiversity through functional traits, statistical rigour, and long-term monitoring. My career goal is to build capacity and foster a more innovative research community in Malaysia and tropical Asia.
 
 Please feel free to reach out for research collaboration, forest fieldwork, guest teaching, and project (co)supervision.
 
-### Current position
-Ecologist / Data scientist, South East Asia Rainforest Research Partnership (SEARRP), Malaysia (joint appointment with Imperial College London, UK)
-<span class="award-badge">{{< fa award >}} 2025 ForestGEO Research Award</span>
+## Research themes
 
-### Past positions
-2019--2025 | Post-doctoral fellow, School of Biological Sciences, University of Canterbury, New Zealand
-<span class="award-badge">{{< fa award >}} Marsden Fast Start Grant</span>
+With selected publications.
 
-2019 | Visiting Research Fellow, Centre for Urban Greenery and Ecology, National Parks Board, Singapore
-<span class="award-badge">{{< fa award >}} CUGE Visiting Research Fellowship</span>
+### Functional trait ecology
 
-2015--2018 | Teaching assistant, National University of Singapore, Singapore 
-<span class="award-badge">{{< fa medal >}} 2018 Teaching Assistant Award</span>
-<span class="award-badge">{{< fa medal >}} 2017 Teaching Assistant Award</span>
+Plant functional traits are a universal currency for understanding how species respond to their environment and shape the communities around them. My work uses traits to explain forest community assembly, successional dynamics, and biodiversity patterns across tropical and subtropical systems — from Borneo to New Zealand.
 
-### Education
-2015--2018 | PhD, Department of Biological Sciences, National University of Singapore, Singapore 
-<span class="award-badge">{{< fa medal >}} International Society for Plant Molecular Biology Medal for most outstanding thesis</span>
+```{r}
+#| output: asis
+theme_list("traits")
+```
 
-2009--2012 | BSc (Hons), School of Biological Sciences, The University of Queensland, Australia 
-<span class="award-badge">{{< fa medal >}} University Medal</span>
-<span class="award-badge">{{< fa medal >}} D.A. Herbert Prize in Botany</span>
-<span class="award-badge">{{< fa medal >}} F.A. Perkins Prize in Entomology</span>
+### Species interactions and coexistence
+
+Species do not exist in isolation: competitive, facilitative, and non-additive biotic interactions jointly determine who persists and where. I develop and apply frameworks from modern coexistence theory and ecological network science to quantify these interactions and understand how they propagate through communities under disturbance.
+
+```{r}
+#| output: asis
+theme_list("interactions")
+```
+
+### Quantitative methods
+
+Ecological inference is only as good as the models behind it. I develop and apply novel statistical approaches — including hierarchical models, model-based ordination, and joint species distribution models — to extract rigorous ecological signal from observational and long-term monitoring data.
+
+```{r}
+#| output: asis
+theme_list("methods")
+```

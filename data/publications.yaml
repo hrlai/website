@@ -237,6 +237,8 @@
   entry: article
   corresponding: yes
   joint_first: no
+  themes:
+    - traits
 - title: Decoupled responses of native and exotic tree diversities to distance from
     old‐growth forest and soil phosphorus in novel secondary forests
   volume: '24'
@@ -274,6 +276,8 @@
   entry: article
   corresponding: yes
   joint_first: no
+  themes:
+    - traits
 - title: AusTraits, a curated plant trait database for the Australian flora
   volume: '8'
   ISSN: 2052-4463
@@ -415,6 +419,8 @@
   entry: article
   corresponding: yes
   joint_first: no
+  themes:
+    - interactions
 - title: Landscape patterns drive provision of nature’s contributions to people by
     mobile species
   volume: '61'
@@ -450,6 +456,8 @@
   entry: article
   corresponding: no
   joint_first: no
+  themes:
+    - interactions
 - title: A Functional Basis for the Assembly of Australian Subtropical Rainforest
     Tree Communities
   volume: '27'
@@ -467,6 +475,8 @@
   entry: article
   corresponding: no
   joint_first: no
+  themes:
+    - traits
 - title: Detecting Nonadditive Biotic Interactions and Assessing Their Biological
     Relevance among Temperate Rainforest Trees
   volume: '204'
@@ -485,6 +495,8 @@
   entry: article
   corresponding: yes
   joint_first: no
+  themes:
+    - interactions
 - title: Potential Effects of an Emerging Disease on Tree Communities Around a Susceptible
     Foundation Tree Species
   volume: '50'
@@ -607,6 +619,8 @@
   entry: article
   corresponding: yes
   joint_first: no
+  themes:
+    - methods
 - title: 'Eltonian Niche Modelling: Applying Joint Hierarchical Niche Models to Ecological
     Networks'
   volume: '28'
@@ -623,6 +637,8 @@
   entry: article
   corresponding: no
   joint_first: no
+  themes:
+    - methods
 - title: Proximity to seabird colonies and water availability shape moss distributions
     in Antarctica
   volume: '2026'

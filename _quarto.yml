@@ -10,6 +10,9 @@ website:
       - href: index.qmd
         text: Home
         icon: house
+      - href: cv.qmd
+        text: CV
+        icon: file-person
       - href: publication.qmd
         text: Publications
         icon: book

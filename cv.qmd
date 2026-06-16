@@ -1,0 +1,34 @@
+---
+title: "CV"
+toc: false
+---
+
+For the full CV, see [{{< fa file-pdf >}} HRLai_resume.pdf](https://github.com/hrlai/resume/blob/master/HRLai_resume.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}.
+
+## Current position
+
+**Ecologist / Data scientist** --- South East Asia Rainforest Research Partnership (SEARRP), Malaysia  
+Joint appointment with Imperial College London, UK  
+<span class="award-badge">{{< fa award >}} 2025 ForestGEO Research Award</span>
+
+## Past positions
+
+**2019--2025** | Post-doctoral Fellow --- School of Biological Sciences, University of Canterbury, New Zealand  
+<span class="award-badge">{{< fa award >}} Marsden Fast Start Grant</span>
+
+**2019** | Visiting Research Fellow --- Centre for Urban Greenery and Ecology, National Parks Board, Singapore  
+<span class="award-badge">{{< fa award >}} CUGE Visiting Research Fellowship</span>
+
+**2015--2018** | Teaching Assistant --- National University of Singapore, Singapore  
+<span class="award-badge">{{< fa medal >}} 2018 Teaching Assistant Award</span>
+<span class="award-badge">{{< fa medal >}} 2017 Teaching Assistant Award</span>
+
+## Education
+
+**2015--2018** | PhD --- Department of Biological Sciences, National University of Singapore, Singapore  
+<span class="award-badge">{{< fa medal >}} International Society for Plant Molecular Biology Medal for most outstanding thesis</span>
+
+**2009--2012** | BSc (Hons) --- School of Biological Sciences, The University of Queensland, Australia  
+<span class="award-badge">{{< fa medal >}} University Medal</span>
+<span class="award-badge">{{< fa medal >}} D.A. Herbert Prize in Botany</span>
+<span class="award-badge">{{< fa medal >}} F.A. Perkins Prize in Entomology</span>
