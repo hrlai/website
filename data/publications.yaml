@@ -237,8 +237,7 @@
   entry: article
   corresponding: yes
   joint_first: no
-  themes:
-    - traits
+  themes: traits
 - title: Decoupled responses of native and exotic tree diversities to distance from
     old‐growth forest and soil phosphorus in novel secondary forests
   volume: '24'
@@ -276,8 +275,7 @@
   entry: article
   corresponding: yes
   joint_first: no
-  themes:
-    - traits
+  themes: traits
 - title: AusTraits, a curated plant trait database for the Australian flora
   volume: '8'
   ISSN: 2052-4463
@@ -419,8 +417,7 @@
   entry: article
   corresponding: yes
   joint_first: no
-  themes:
-    - interactions
+  themes: interactions
 - title: Landscape patterns drive provision of nature’s contributions to people by
     mobile species
   volume: '61'
@@ -456,8 +453,7 @@
   entry: article
   corresponding: no
   joint_first: no
-  themes:
-    - interactions
+  themes: interactions
 - title: A Functional Basis for the Assembly of Australian Subtropical Rainforest
     Tree Communities
   volume: '27'
@@ -475,8 +471,7 @@
   entry: article
   corresponding: no
   joint_first: no
-  themes:
-    - traits
+  themes: traits
 - title: Detecting Nonadditive Biotic Interactions and Assessing Their Biological
     Relevance among Temperate Rainforest Trees
   volume: '204'
@@ -495,8 +490,7 @@
   entry: article
   corresponding: yes
   joint_first: no
-  themes:
-    - interactions
+  themes: interactions
 - title: Potential Effects of an Emerging Disease on Tree Communities Around a Susceptible
     Foundation Tree Species
   volume: '50'
@@ -619,8 +613,7 @@
   entry: article
   corresponding: yes
   joint_first: no
-  themes:
-    - methods
+  themes: methods
 - title: 'Eltonian Niche Modelling: Applying Joint Hierarchical Niche Models to Ecological
     Networks'
   volume: '28'
@@ -637,8 +630,7 @@
   entry: article
   corresponding: no
   joint_first: no
-  themes:
-    - methods
+  themes: methods
 - title: Proximity to seabird colonies and water availability shape moss distributions
     in Antarctica
   volume: '2026'
@@ -672,4 +664,19 @@
   key: Hern_ndez_Carrasco_2026
   entry: article
   corresponding: no
+  joint_first: no
+- title: Asymmetric transferability of trait–environment relationships between native
+    and exotic plant species in Singaporean forests differing in land‐use history
+  ISSN: 1600-0706
+  url: http://dx.doi.org/10.1002/oik.12302
+  DOI: 10.1002/oik.12302
+  journal: Oikos
+  publisher: Wiley
+  author: Lai, Hao Ran and Chong, Kwek Yan and Neo, Louise and Wardle, David A. and
+    Vesk, Peter A.
+  year: '2026'
+  month: July
+  key: Lai_2026
+  entry: article
+  corresponding: yes
   joint_first: no
