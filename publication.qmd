@@ -4,6 +4,7 @@ execute:
   echo: false
   message: false
   warning: false
+  freeze: false
 ---
 
 This publication list is curated occassionally to include some filters that I find useful. For a potentially more updated list, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=g9SWxxcAAAAJ&view_op=list_works&sortby=pubdate) or [ResearchGate](https://www.researchgate.net/profile/Hao-Ran-Lai/research).
