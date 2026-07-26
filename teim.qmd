@@ -1,13 +1,67 @@
 ---
-title: "Trait Ecology Initiative Malaysia"
+title: "Trait Ecology Initiative Malaysia (TEIM)"
 ---
 
-::: {.callout-note}
-This page is still under construction. Please feel free to [email me](mailto:hrlai.ecology@gmail.com) or fill in this [interest form](https://forms.gle/Wt3nK4Q8ZNWJT8nL7) to discuss further or know more.
+::: {.lead}
+The conservation of our dwindling biodiversity demands rapid information gathering, yet we inefficiently assess the risks of our 170,000 species one-by-one in Malaysia. The solution is trait ecology that synthesises discrete species into continuous life-history spectra, but we are also slow to leverage transferable knowledge from this growing and exciting field. There is an urgent need to modernise our mode of operation.
 :::
 
-The conservation of our dwindling biodiversity demands rapid information gathering, yet we inefficiently assess the risks of our 170,000 species one-by-one in Malaysia. The solution is trait ecology that synthesises discrete species into continuous life-history spectra, but we are also slow to leverage transferable knowledge from this growing and exciting field. There is an urgent need to modernise our mode of operation.
+### Vision and Mission
 
-We need to grow trait ecology in Malaysia as a holistic programme that integrates generalisable findings into conservation, mobilises knowledge with a [living database](mytraits.qmd), and establishes a data-equity system for long-term capacity building.
+We are establishing the **Trait Ecology Initiative Malaysia 
+(TEIM)** to accelerate ecological research and conservation in 
+Malaysia's megadiverse ecosystems and cities.
+Grounded in Malaysia's **National Policy on Biological
+Diversity (NPBD 2022-2030)** and anchoring **UN SDG 15 (Life on
+Land)** and **SDG 17 (Partnerships for the Goals)**, TEIM is 
+more than just a research group; it's a movement towards 
+knowledge ownership, intellectual independence, and impactful 
+conservation in Malaysia. 
 
-I am drafting a working or interest group to achieve these goals, tentatively named the *Trait Ecology Initiative Malaysia* (TEIM). I really want to say "we" but currently it's just myself. Please feel free to fill in this [form](https://forms.gle/Wt3nK4Q8ZNWJT8nL7) to indicate your interest. Let's organise a meeting once we have reached a critical mass!
+### What We Offer
+
+We aim to enhance---not complicate---your existing work. This 
+initiative is a grassroots effort. We understand the
+constraints of budgets and overheads, so we focus on collaborative
+tools and shared resources to maximise our impact. We offer:
+
+- **Peer knowledge sharing** to exchange taxonomic, ecological
+  and programming expertise.
+- **Student tutorials** focusing on trait concepts and data 
+  analysis workflows.
+- **Low-cost collaborative tools** and **shared resources** 
+  to support ongoing fieldwork without adding administrative 
+  burdens.
+
+### Research Themes in Malaysia
+
+To foster targeted collaboration, we anticipate specialized 
+sub-groups forming around key ecological and environmental 
+themes:
+
+*   **Forest Dynamics & Restoration**
+*   **Climate Resilience & Carbon Cycling** 
+*   **Species and Ecosystem Service Risk Assessment**
+
+### Who Should Join
+
+We welcome researchers spanning **taxonomy**, **ecology** and 
+**programming**. Trait-based ecology is highly compatible with and improves
+ongoing research rather than requiring a you to abandon current methods;
+it offers new analytical dimensions to your current projects.
+
+### MYtraits Database
+
+Our primary infrastructure is [**MYtraits**](mytraits.qmd), a 
+taxonomically-harmonised plant trait database that is homegrown.
+Based on **AusTraits** (an established, high-impact Australian database),
+MYtraits aims to secure local data equity and capacity building with
+a complete collaborative platform.
+
+:::{.callout-note}
+### Join Us
+Ready to collaborate? Please fill out our
+[**Google Form**](https://forms.gle/Wt3nK4Q8ZNWJT8nL7) {{< fa pen-to-square >}} to 
+submit your Expression of Interest (EOI).
+Let's organise a meeting once we have reached a critical mass!
+:::
